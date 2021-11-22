@@ -1,0 +1,67 @@
+button:disabled {
+    background-color: rgb(208 218 224);
+  }
+  
+  .title {
+    font-family: AmericanSans-Medium, Roboto, sans-serif;
+    margin: 50px 40px 20px 60px;
+    color: #00467f;
+  }
+  
+  .sub-title {
+    font-family: AmericanSans-Regular, Roboto, sans-serif;
+    margin: 0 40px 25px 60px;
+    color: #627a89;
+    font-size: 18px;
+  }
+  
+  .inline {
+    display: inline-block;
+  }
+  
+  .button {
+    font-family: AmericanSans-Medium, Roboto, sans-serif!important;
+    font-size: 16px!important;
+    color: white;
+    background: #0078d2;
+    border-radius: 2px;
+    width: 250px;
+    height: 40px;
+    white-space: nowrap;
+    text-align: center;
+    text-transform: none!important;
+  }
+
+  .select-button {
+    font-family: AmericanSans-Medium, Roboto, sans-serif!important;
+    font-size: 16px!important;
+    width: 250px;
+    height: 40px;
+    display: inline;
+    text-transform: none!important;
+  }
+  
+  .loading-view {
+    font-size: large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .ie-disclaimer {
+    font-family: AmericanSans-RegularItalic, Roboto, sans-serif;
+    margin: 0 40px 40px;
+    color: #627a89;
+    padding: 0 10%;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .date-disclaimer {
+    font-family: AmericanSans-Regular, Roboto, sans-serif;
+    margin-bottom: 40px;
+    color: #627a89;
+    font-size: 18px;
+  }
+  

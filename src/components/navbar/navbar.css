@@ -1,0 +1,81 @@
+.logo-alignment {
+  margin: 0 0 0 -12px;
+}
+
+.logo-image {
+  height: auto;
+  width: auto;
+  max-height: 50px;
+  max-width: 250px;
+  position: absolute;
+  bottom: -10px;
+}
+
+.logo-text {
+  font-family: AmericanSans-Medium, Roboto, sans-serif;
+  font-size: 24px;
+  position: absolute;
+  left: 24px;
+  bottom: -35px;
+}
+
+.logo-container {
+  position: relative;
+}
+
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+nav {
+  margin-left: 1rem;
+}
+
+.navbar-items {
+    background: white;
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 5px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 1.4rem;
+  padding-top: 15px;
+  position: relative;
+}
+
+.button-navbar {
+  color: #0078d2;
+  text-transform:  none!important;
+  font-family: AmericanSans-Medium, Roboto, sans-serif!important;
+  font-size: 18px!important;
+}
+
+a {
+  color: #0078d2;
+}
+
+.logout-button {
+  font-family: AmericanSans-Medium, Roboto, sans-serif!important;
+  font-size: .75em;
+  color: white;
+  background: #0078d2;
+  border-radius: 2px;
+  text-transform: none!important;
+}
+
+.menu-item {
+  font-family: AmericanSans-Regular, Roboto, sans-serif!important;
+  font-size: 16px!important;
+}
+
+
+
+  
